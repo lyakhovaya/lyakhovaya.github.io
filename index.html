@@ -7,6 +7,47 @@
     }
 </style> 
 <meta charset="windows-1251">
+
+<script>
+
+	(function (d, w, c) {
+	(w[c] = w[c] || []).push(function() {
+	try {
+	w.yaCounter23283436 = new Ya.Metrika({id:23283436,
+	webvisor:true,
+	clickmap:true,
+	trackLinks:true,
+	accurateTrackBounce:true});
+	} catch(e) { }
+	});
+	var n = d.getElementsByTagName("script")[0],
+	s = d.createElement("script"),
+	f = function () { n.parentNode.insertBefore(s, n); };
+	s.async = true;
+	s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
+	if (w.opera == "[object Opera]") {
+	d.addEventListener("DOMContentLoaded", f, false);
+	} else { f(); }
+	})(document, window, "yandex_metrika_callbacks");  
+</script> 
+
+<script>
+(function () {
+var pg = document.createElement('script');
+var protocol = 'https:' == document.location.protocol ? 'https://' : 'http://';
+pg.src = protocol + 'js.primegate.ru/primegate.min.js'; pg.setAttribute('async', 'true');
+document.documentElement.getElementsByTagName('head')[0].appendChild(pg);
+PrimeGate = {}; window.pg = []; components = ['init', 'track', 'identify'];
+for (var i in components) {
+PrimeGate[components[i]] = (function(component) {
+return function () {
+window.pg.push(component, [].slice.call(arguments, 0));
+}
+}(components[i]));
+}
+})();
+PrimeGate.init(1517845733);
+</script>
 <!-- Global site tag (gtag.js) - Google Analytics 
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-PQ2WEX527P"></script>
 <script>
